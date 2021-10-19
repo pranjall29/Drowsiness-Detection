@@ -23,7 +23,6 @@ cap = cv2.VideoCapture(0)
 font = cv2.FONT_HERSHEY_COMPLEX_SMALL
 count=0
 score=0
-thicc=2
 rpred=[99]
 lpred=[99]
 
