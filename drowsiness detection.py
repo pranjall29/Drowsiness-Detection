@@ -92,13 +92,7 @@ while(True):
             
         except:  # isplaying = False
             pass
-        if(thicc<16):
-            thicc= thicc+2
-        else:
-            thicc=thicc-2
-            if(thicc<2):
-                thicc=2
-        cv2.rectangle(frame,(0,0),(width,height),(0,0,255),thicc) 
+        
     cv2.imshow('frame',frame)
     if cv2.waitKey(1) & 0xFF == ord('q'):
         break
